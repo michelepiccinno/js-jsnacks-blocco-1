@@ -3,8 +3,8 @@ const arrayNumbers = [2,3,8,1,4,5];
 let somma = 0;
 //DICHIARO UNA VARIABILE CHE USERO' NEL FOR PER LA SOMMA
 for (let i = 0; i < arrayNumbers.length; i++) {
-  if (i % 2 == 0) {
-    console.log('indice pari: ' + i);
+  if (i % 2 == 1) {
+    console.log("posizione dispari nell'array: " + i);
     console.log('numero selezionato in posizione dispari: ' + arrayNumbers[i] + ' ')
     somma += arrayNumbers[i];
   }
